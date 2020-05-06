@@ -1,0 +1,9 @@
+.cover_type_margin{
+    margin: 0 auto 160px;
+}
+
+@media (max-width : 767px)  {
+    .cover_type_margin{
+        margin: 0 auto 64px;
+    }
+}

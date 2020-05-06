@@ -1,0 +1,10 @@
+.intro_type_margin{
+     margin: 0 auto 102px;
+}
+
+@media (max-width : 1023px)  {
+     .intro_type_margin{
+         margin: 0 auto 64px;
+     }
+ }
+ 

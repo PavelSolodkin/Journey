@@ -1,0 +1,20 @@
+@import url("./__stat-text/intro__stat-text.css");
+
+.intro__stat-list{
+    max-width: 383px;
+    color: white;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.6;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width : 767px)  {
+    .intro__stat-list{
+        font-size: 12px;
+    }    
+}

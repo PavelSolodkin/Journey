@@ -1,0 +1,28 @@
+.item__duration{
+    color: white;
+    max-width: 100%;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.3em;
+    margin-top: auto;
+    margin-left: 30px;
+    margin-bottom: 12px;
+}
+
+@media (min-width : 375px)  and (max-width : 1023px)  {
+    .item__duration{
+        margin-bottom: 8px;
+        margin-left: 24px;
+    }
+}
+
+@media (max-width : 374px)  {
+    .item__duration{
+        margin-bottom: 8px;
+        margin-left: 16px;
+    }
+
+}

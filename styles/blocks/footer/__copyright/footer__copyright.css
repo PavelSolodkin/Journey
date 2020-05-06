@@ -1,0 +1,25 @@
+.footer__copyright{
+    color: white;
+    margin: 0;
+    align-self: flex-end;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: right;
+}
+
+@media (min-width : 375px)  and (max-width : 767px)  {
+    .footer__copyright{
+        max-width: 343px;
+        align-self: flex-start;
+    }
+
+}
+
+@media (min-width : 320px)  and (max-width : 374px)  {
+    .footer__copyright{
+        max-width: 288px;
+        align-self: flex-start;
+    }
+}

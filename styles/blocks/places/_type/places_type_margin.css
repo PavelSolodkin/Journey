@@ -1,0 +1,10 @@
+.places_type_margin{
+    margin: 0 auto 102px;
+}
+
+@media (max-width : 767px)  {
+    .places_type_margin{
+        margin: 0 auto 64px;
+    }
+}
+

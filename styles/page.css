@@ -1,0 +1,32 @@
+@import url("./blocks/blocks.css");
+
+@font-face{
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Regular.otf");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face{
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Bold.otf");
+  font-style: normal; 
+  font-weight: bold; 
+}
+
+@font-face{
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Bold.otf");
+  font-style: normal; 
+  font-weight: 900; 
+}
+
+.page {
+  background: #2A2C2F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,23 @@
+.item__subtitle{
+    color: white;
+    max-width: 100%;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+@media (min-width : 375px)  and (max-width : 1023px)  {
+    .item__subtitle{
+        margin-left: 24px;
+    }
+}
+
+@media (max-width : 374px)  {
+    .item__subtitle{
+        margin-left: 16px;
+    }
+}

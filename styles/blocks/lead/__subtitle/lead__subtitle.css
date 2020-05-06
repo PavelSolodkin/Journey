@@ -1,0 +1,41 @@
+.lead__subtitle{
+    color: #FFFFFF;
+    max-width: 583px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto 78px;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .lead__subtitle{
+        max-width: 928px;
+    }
+}
+
+@media (min-width : 768px)  and (max-width : 1023px) {
+    .lead__subtitle{
+        max-width: 720px;
+    }
+}
+
+@media (min-width : 375px)  and (max-width : 767px) {
+    .lead__subtitle{
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width : 374px) {
+    .lead__subtitle{
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 32px;
+    }
+}

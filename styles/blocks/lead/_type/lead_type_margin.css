@@ -1,0 +1,9 @@
+.lead_type_margin{
+    margin: 0 auto 80px;
+}
+
+@media (max-width : 767px) {
+    .lead_type_margin{
+        margin: 0 auto 64px;
+    }
+}

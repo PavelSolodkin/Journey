@@ -1,0 +1,39 @@
+@import url("./__item/comments__item.css");
+
+.comments__container{
+    width: 100%;
+    margin: 0 auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 382px);
+    grid-column-gap: 19px;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .comments__container{
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, 296px);
+    }
+}
+
+@media (min-width : 768px)  and (max-width : 1023px)  {
+    .comments__container{
+        max-width: 382px;
+        grid-row-gap: 48px;
+    }
+}
+
+@media (min-width : 375px)  and (max-width : 767px)  {
+    .comments__container{
+        max-width: 343px;
+        grid-row-gap: 48px;
+        margin: 0 auto 0;
+    }
+}
+
+@media (max-width : 374px)  {
+    .comments__container{
+        max-width: 288px;
+        grid-row-gap: 48px;
+        margin: 0 auto 0;
+    }
+}
