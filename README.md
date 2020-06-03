@@ -1,5 +1,5 @@
 # Journey
-Interesting places ib Russia
+Interesting places in Russia
 
 ## Технологии:
 HTML; CSS (flex, grid); Adaptive; BEM; Figma;
